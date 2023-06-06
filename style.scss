@@ -1,0 +1,26 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+
+    & input {
+        margin-bottom: 1em;
+    }
+
+    & #button {
+        display: flex;
+        gap: .5em;
+        align-self: center;
+        width: max-content;
+    }
+}
+
+#res {
+    font-size: 20px;
+    & p {
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    
+}
